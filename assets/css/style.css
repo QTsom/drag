@@ -1,0 +1,39 @@
+/* all using */
+.header {
+    background-color: #333;
+}
+.header-inner {
+    display: flex;
+    padding: 30px 20px;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header h1 {
+    flex-shrink: 0;
+    font-size: 28px;
+    color: #fff;
+}
+.header .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.header .navigation-item {
+    font-size: 15px;
+    color: #f1f1f1;
+}
+.footer {
+    background-color: #999;
+}
+.footer-inner {
+    max-width: 1240px;
+    width: 100%;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+/* example 1 */
+.example-1 {}
