@@ -1,4 +1,8 @@
 /* all using */
+body {
+    min-width: 1200px;
+    overflow-x: auto;
+}
 .header {
     background-color: #333;
 }
@@ -36,4 +40,83 @@
 }
 
 /* example 1 */
-.example-1 {}
+/* example 2 */
+.example-2 {
+    max-width: 1240px;
+    width: 100%;
+    padding: 70px 20px;
+    margin: 0 auto;
+}
+.button-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+}
+.button-item {
+    list-style: none;
+}
+.button-primary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 7px;
+}
+.button-primary.picture {
+    background-color: rgb(255, 158, 158);
+}
+.button-primary.trash {
+    background-color: rgb(136, 136, 255);
+}
+.button-primary.reset {
+    background-color: rgb(142, 192, 142);
+}
+.button-primary span {
+    flex-shrink: 0;
+}
+.button-primary img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: invert(100);
+}
+.scenario-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.scenario-container .scenario-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    min-width: 30px;
+    padding: 30px 50px;
+    background-color: #eee;
+    border-radius: 15px;
+}
+.scenario-item {
+    max-width: 180px;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+textarea {
+    max-width: 180px;
+    padding: 30px;
+    resize: none;
+    background-color: #fff;
+    border-radius: 15px;
+}
+/* .scenario-container .scenario-item:not(:last-of-type) {
+    margin-bottom: 40px;
+} */

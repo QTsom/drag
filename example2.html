@@ -21,29 +21,55 @@
     </header>
 
     <main class="example-2">
-        <ul class="button-container">
-            <li>
-                <button></button>
+        <ul class="button-list">
+            <li class="column button-item" draggable="true">
+                <button type="button" class="button-primary picture">
+                    <span>사진 보기</span>
+                    <img src="assets/images/icon_7.svg" alt="">
+                </button>
             </li>
-            <li>
-                <button></button>
+            <li class="column button-item" draggable="true">
+                <button type="button" class="button-primary trash">
+                    <span>휴지통</span>
+                    <img src="assets/images/icon_8.svg" alt="">
+                </button>
             </li>
-            <li>
-                <button></button>
+            <li class="column button-item" draggable="true">
+                <button type="button" class="button-primary reset">
+                    <span>새로고침</span>
+                    <img src="assets/images/icon_9.svg" alt="">
+                </button>
             </li>
         </ul>
 
         <div class="scenario-container">
-            <div class="scenario-wrapper">
-                <ul class="category-list">
-                    <li class="category-item"></li>
-                </ul>
+            <div class="column scenario-wrapper" draggable="true">
+                <div class="scenario-item">
+                    <img src="assets/images/icon_1.svg" alt="">
+                </div>
+                <div class="scenario-item">
+                    <img src="assets/images/icon_4.svg" alt="">
+                </div>
+
+                <textarea>텍스트 작성하는 곳</textarea>
             </div>
-            <div class="scenario-wrapper">
-                <ul class="category-list"></ul>
+
+            <div class="column scenario-wrapper" draggable="true">
+                <div class="scenario-item">
+                    <img src="assets/images/icon_2.svg" alt="">
+                </div>
+                <div class="scenario-item">
+                    <img src="assets/images/icon_5.svg" alt="">
+                </div>
             </div>
-            <div class="scenario-wrapper">
-                <ul class="category-list"></ul>
+
+            <div class="column scenario-wrapper" draggable="true">
+                <div class="scenario-item">
+                    <img src="assets/images/icon_3.svg" alt="">
+                </div>
+                <div class="scenario-item">
+                    <img src="assets/images/icon_6.svg" alt="">
+                </div>
             </div>
         </div>
     </main>
@@ -54,4 +80,6 @@
         </div>
     </footer>
 </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js" integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/example2.js"></script>
 </html>
